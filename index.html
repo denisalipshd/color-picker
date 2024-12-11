@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <button type="button" id="acakwarna">Acak Warna</button>
+    <button type="button" id="resetwarna">Reset</button>
+
+    <br /><br />
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255" />
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255" />
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255" />
+
+    <p id="rgbValue">RGB: 0, 0, 0</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
